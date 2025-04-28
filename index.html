@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements and Forms</title>
+</head>
+<body>
+    <section>
+    <h1> HTML ELEMENTS</h1>
+    <ol type="I">
+        <li>headings</li>
+        <li>paragraphs</li>
+        <li>links</li>
+        <li>images</li>
+        <li>lists</li>
+        <li>tables</li>
+        <li>forms</li>
+        <li>audio</li>
+        <li>video</li>
+        <li>canvas</li>
+        <li>svg</li>
+        <li>iframes</li>
+        <li>scripts</li>
+        <li>styles</li>
+        <li>meta</li>
+        <li>title</li>
+        <li>base</li>
+        
+    </ol>
+</section>
+<section>
+    <img src="https://www.pexels.com/photo/aerial-view-of-yacht-on-turquoise-ocean-waters-31714607/" alt="Aerial view of yacht on turquoise ocean waters" width="600" height="400">
+    <p>Image Source: Pexels</p>
+</section>
+<section>
+    <h2>HTML TABLE</h2>
+    <table border="1" cellpadding="10" cellspacing="1" width="50%">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>  
+        </tr>
+        <tr>
+            <td>Abdi</td>
+            <td>80100</td>
+            <td>0734657890</td>
+            <td>abd34@gmail.com</td>
+        </tr>
+        <tr>
+            <td>jane</td>
+            <td>kisii</td>
+            <td>0752677890</td>
+            <td>jane56@gmail.com</td>  
+        </tr>
+        <tr>
+            <td>Maourin</td>
+            <td>eldoret</td>
+            <td>0723457698</td>
+            <td>maourin789@gmail.com</td>  
+        </tr>
+        <tr>
+            <td>marry</td>
+            <td>meru</td>
+            <td>0726227708</td>
+            <td>marry33@gmail.com</td>  
+        </tr>
+        <tr>
+            <td>joseph</td>
+            <td>nairobi</td>
+            <td>0712345678</td>
+            <td>Josee23@gmail.com</td>
+        </tr>
+    </table> 
+    <section>
+        <h3>Registreation Form</h3>
+        <form>
+            <label for ='name'>Name:</label><br>
+            <input type="text" id ="name" name="Name"  placeholder="enter name"  required maxlength="20"><br><br> 
+            <label for ='email'>Email:</label><br>
+            <input type="email" id ="email" name="Email" placeholder="Email" required maxlength="20"><br><br>
+            <label for ='password'>password:</label><br>
+            <input type="password" id ="password" name="Password" placeholder="password" min="8"><br><br>
+            <label for ='datefield'></label><brDate field>
+            <input type="date" id ="datefield" name="Date field" required><br><br>
+            <!--adding gender to apply on  radio-->
+            <lable>Gender</lable><br><br>
+            <label for="name ">Male</label>
+            <input type="radio" id="Male" name="Male" value ="Male" required><br><br>
+            <label for="name ">Female</label>
+            <input type="radio" id="Female" name="Female" value="Female" required><br><br>
+            <!-- adding country to apply on dropdown-->
+            <label for="country">Country:</label><br><br>
+            <select id="country" name="country" required>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Burundi">Burundi</option>
+            <select><br><br>
+            <!--adding checkbox to apply on checkbox-->
+            <label for="name">Hobbies:</label><br><br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Reading" required>Reading<br><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Traveling" required>Traveling<br><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Cooking" required>Cooking<br><br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Sports" required>Sports<br><br> 
+            <input type="checkbox" id="hobby5" name="hobby5" value="Music" required>Music<br><br>
+            
+        </form>
+        
+    </section>
+
+
+
+</body>
+</html>
